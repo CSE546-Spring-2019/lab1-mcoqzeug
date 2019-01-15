@@ -127,7 +127,7 @@ int main(int argc, char** argv) {
     char size_str[256];
     char match_str[256];
 
-    sprintf(size_str, "Size of file is %d\n", (int)size);
+    sprintf(size_str, "Size of file is %llu\n", (unsigned long long)size);
     sprintf(match_str, "Number of matches = %d\n", match_count);
 
     printf("%s", size_str);
